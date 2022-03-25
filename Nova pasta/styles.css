@@ -1,0 +1,71 @@
+body{
+    background-image: url(../Background/fog-lake-duck4k-1024x576.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(33, 81, 185);
+    color:rgb(255, 255, 253);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: white
+}
+a:hover{
+    color: rgb(143, 81, 143)
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+img{
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;    
+}
+p{
+    max-width: 500px;
+    line-height: 30px;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 15px;
+    border: none
+}
+#btn-enviar{
+    background-color: rgb(143, 81, 243);
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: larger;
+}
+#btn-enviar:hover{
+    cursor: pointer;
+    background: rgb(14, 197, 23);
+    color: black;
+} 
